@@ -1,0 +1,306 @@
+	
+body{
+	background-color:#E6EBF0;
+	font-size:87.5%; /* base font is 14px*/
+	font-family: Times,'Lucida Sans Unicode';
+	line-heigth:1.5;
+	text-align:left;}
+	
+.corps{
+	margin:0 auto;
+	width: 80%;
+	clear:both; /* il n'y aura de float ni à droite ni à gauche dans body*/	
+}		
+
+
+a{
+	text-decoration:none;
+	
+}
+
+a:links, a:visited{
+	color:skyblue;
+}
+
+a:hover,a:active{
+	background-color:skyblue;
+	color:black;
+}
+
+
+/*.mainHeader img{
+	width:30%;
+	height:auto;
+	margin:2% 0
+}*/
+
+.photo {
+	clear:both;	
+	background-image:url("sky.JPG");	
+	margin:1% 0% 1% 0%;
+	height:150px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	
+}
+
+.photo p {
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 6%;
+	font-size:30px;
+}
+.mainHeader nav{
+	background-color:#666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul{
+	list-style:none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+	float:left;
+	display:inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	color:#E6EBF0;
+	display:inline-block;
+	padding:10px 25px;
+	height: 20px
+}
+
+.mainHeader nav a:active,.mainHeader nav .active a:link,
+.mainHeader nav a:hover,.mainHeader nav .active a:visited{
+	 background-color:skyblue;
+	 text-shadow:none;	 
+}
+
+
+
+.mainHeader nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+}
+
+section {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	/*overflow: hidden;*/
+}
+
+.content{
+	width:58%;
+	float:left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	
+}
+
+.topcontent{ /*alles außer die Data analysis Seite*/
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding:3% 5% ;
+	margin-top:2%;
+}
+
+.topcontent img, .bottomcontent2 img{ /*nur für die Data analysis Seite*/
+	float:left;
+	width:160px;
+	height:150px;
+	padding:3% 5% ;
+	margin-top:2%;
+}
+
+.bilder p{/*nur für die Data analysis Seite*/
+	margin-left: 2%;
+	margin-top:1%;
+}
+#circle			{border-radius:50% 50% 50% 50%; width:90px; height:130px; float:left; }
+#blanc 				{ color: brown;}
+
+.bottomcontent{
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	padding:3% 5% ;
+	margin-top: 2%;
+}
+
+.bottomcontent2{
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	padding:3% 5% ;
+	margin-top: 2%;
+}
+
+code{
+	color:blue;
+}
+#commenter {
+	color:green;
+	margin-bottom:0.1%; 
+}
+.barre-du-haut{
+	width:15%;
+	float:left;
+	background-color:white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	margin-left: 1%;
+	margin-top: 1.5%;
+	padding: 2% 3%;
+}
+
+.post-info{
+	 font-style: italic;
+	 color:#999;
+	 font-size:90%;
+}
+.barre-du-milieu{
+	width:15%;
+	float:left;
+	background-color:white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	margin-left: 1%;
+	margin-top:1%;
+	padding: 2% 3%
+}
+.barre-du-bas{
+	width:15%;
+	float:left;
+	background-color:white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	margin-left: 1%;
+	margin-top:1%;
+	padding: 2% 3%
+}
+
+.pied{
+	width:100%;
+	float:left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color:#666;
+	margin:2% 0;
+}
+.pied p{
+	width:92%;
+	margin:2% auto;
+	
+}
+
+/*@media only screen and ( min-width: 150px) and (max-width: 640px)
+{	
+	.body{
+		width: 90%;
+		font-size:95%	
+	}	
+	
+	.mainHeader img{
+		width:100%;
+	}	
+
+}*/	
+
+#barre-vert1 		{width: 20%;float: left;border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;}
+
+#barre-vert1 ul 	{ list-style-type: none; padding-left: 2em;  padding-top: 10px;}/*=== 1. lu-Ebene ====*/
+#barre-vert1 ul ul 	{ list-style-type: square;}/*=== 2. lu-Ebene ====*/
+
+#barre-vert1 li 	{ padding-bottom: 0.5em;}
+
+
+
+
+* Below line is write to use Google font online */
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+
+.jumbotron {
+  height: 2	80px;
+  background-size: cover;
+}
+
+#main.form_sample{
+width:830px;
+height:600px;
+margin:0 auto;
+font-family: Times,serif;
+}
+#form_sample{
+margin-right:auto;	
+text-align:center;
+border:1px solid #ccc;
+width:270px;
+padding:15px 50px 15px;
+margin-left:auto;
+box-shadow:0 0 15px;
+border-radius:6px;
+/*  float:left;     */
+}
+#main h1{
+margin-top:40px;
+}
+hr{
+margin-top:-5px;
+}
+label{
+float:left;
+font-size:16px
+}
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #2BC1F2
+}
+textarea{
+width:100%;
+border:3px solid #2BC1F2;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:90px;
+resize:none
+}
+input[type="submit"]{
+width:50%;
+padding:10px 45px;
+background-color:#2BC1F2;
+border:none;
+color:#fff;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Ubuntu',sans-serif
+}
+/* -------------------------------------
+CSS for Sidebar (optional)
+---------------------------------------- */
+#fugo{
+float:right
+}
